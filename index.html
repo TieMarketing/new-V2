@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>App - Site Oficial</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+
+    <!-- Poppins Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+
+<script>
+  window.googlePixelId = "681a9efbd91250e5aa142870";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel-google.js");
+  document.head.appendChild(a);
+</script>
+  
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11289495469">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11289495469');
+</script>
+
+
+
+    <script>
+        function extractAndSaveDDD() {
+            const phoneInput = document.getElementById('phone').value;
+
+            const dddMatch = phoneInput.match(/\((\d{2})\)/);
+
+            if (dddMatch) {
+                const ddd = dddMatch[1];
+                localStorage.setItem('ddd', ddd);
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    
+    
+    
+    
+    <!--
+    
+    <header id="topo-timer" style="position: sticky; top: 0; z-index: 9999; background-color: #128C7E; color: white; padding: 10px 0;">
+  <div style="max-width: 600px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 15px;">
+    <strong style="font-size: 18px;">WhatsApp</strong>
+    <div style="text-align: right;">
+      <div style="font-size: 12px;">Seu teste gratuito termina em</div>
+      <div id="contador" style="font-size: 18px; font-weight: bold;">15:00</div>
+    </div>
+  </div>
+</header>
+
+<div id="mensagem-pausa" style="display: none; background: #fff3cd; color: #856404; text-align: center; padding: 10px 15px; font-weight: 500; font-size: 14px; border-top: 1px solid #ffeeba; border-bottom: 1px solid #ffeeba;">
+  ⏸️ Teste pausado. Assista ao vídeo e aguarde o Número ser Rastreado para liberar o acesso.
+</div>
+
+-->
+
+
+
+
+    <!-- Main Content -->
+    <div class="container-custom mx-auto my-4">
+        <div class="card">
+            <div class="card-body">
+
+                <div class="part-1">
+
+                    <h5 class="card-title poppins-extrabold text-center mb-2">Parabéns... Você ganhou uma<br><span style="color:#008169"> Investigação Gratuita</span></h5>
+
+                    <h5 class="card-title poppins-extrabold text-center mb-2">Rastreie mensagens - Fotos chamadas e localização de qualquer celular!</h5>
+                    <p class="card-text text-center">Monitoramento sem notificação 100% invisivel, seguro em tempo real. Tudo isso muito mais de qualquer WhatsApp.</p>
+
+                    <p class="card-text text-center"><mark>Chega de incertezas e dúvidas!<br> <b>Monitore <span style="color:#008169">Todos Aplicativos</span> abaixo e muito mais</b></mark></p>
+
+
+                    <img src="assets/img/img-1.webp" class="img-fluid w-100 mb-3">
+
+                    <p class="text-center">Digite o <strong>número de WhatsApp</strong> da pessoa que você deseja <strong>investigar</strong>, incluindo o <strong>DDD</strong>:</p>
+
+                    <div class="input-container">
+                        <div class="country-code">
+                            <span class="flag">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.2 38.4" style="width: 24px; height: 16px;">
+                                    <style type="text/css">
+                                        .st0 {
+                                            fill: #009B3A;
+                                        }
+
+                                        .st1 {
+                                            fill: #FEDF00;
+                                        }
+
+                                        .st2 {
+                                            fill: #002776;
+                                        }
+
+                                        .st3 {
+                                            fill: #FFFFFF;
+                                        }
+                                    </style>
+                                    <g>
+                                        <path class="st0" d="M3.03,0h49.13c1.67,0,3.03,1.36,3.03,3.03v32.33c0,1.67-1.36,3.03-3.03,3.03H3.03C1.36,38.4,0,37.04,0,35.37V3.03C0,1.36,1.36,0,3.03,0L3.03,0z"></path>
+                                        <polygon class="st1" points="4.24,19.2 27.6,34.11 50.96,19.2 27.6,4.29 4.24,19.2"></polygon>
+                                        <path class="st2" d="M27.6,9.35c5.44,0,9.85,4.41,9.85,9.85c0,5.44-4.41,9.85-9.85,9.85c-5.44,0-9.85-4.41-9.85-9.85 C17.75,13.76,22.16,9.35,27.6,9.35L27.6,9.35z"></path>
+                                        <path class="st3" d="M18.59,15.22c1.1-0.16,2.23-0.24,3.38-0.24c5.86,0,11.22,2.11,15.38,5.6c-0.07,0.54-0.19,1.06-0.35,1.56 c-3.98-3.58-9.25-5.76-15.03-5.76c-1.33,0-2.64,0.12-3.91,0.34C18.2,16.2,18.38,15.7,18.59,15.22L18.59,15.22z"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span>+55</span>
+                        </div>
+                        <input type="tel" id="phone" style="font-size: 16px;" class="form-control input-phone" placeholder="(11) 90000-0000" maxlength="15">
+                    </div>
+
+                    <button id="btn-save" onclick="extractAndSaveDDD()" class="btn btn-primary w-100 mt-2 mb-2 p-2">Iniciar Investigação Agora</button>
+
+                    <div style="font-size: 10px;" class="text-center mb-5">
+                        <i class="fa fa-lock" aria-hidden="true"></i> <span>Totalmente Anônimo e Seguro - Criptografia Sha-256.</span><br><span>Ninguém saberá que você acessou as mensagens.</span>
+
+                    </div>
+
+                    <div class="card mb-3" id="card_funciona" style="cursor: pointer;">
+                        <div class="card-body">
+                            <div style="font-size: 13px;" class="text-center poppins-semibold card-body d-flex justify-content-between align-items-center">
+                                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                <span>Como a ferramenta funciona? </span>
+                                <i class="fa fa-chevron-down toggleArrow" aria-hidden="true"></i>
+                            </div>
+
+                            <div id="hiddenContent" style="display: none;">
+                                <div class="text-center">
+                                    <p>Nossa tecnologia avançada clona de forma segura e sigilosa todas as mensagens, fotos, áudios, vídeos e localização do WhatsApp da pessoa em questão.</p>
+                                    <img src="assets/img/fundo.png" class="img-fluid w-100 mt-2 mb-3">
+                                    <p>Basta seguir esses passos simples: 👇</p>
+                                    <p style="font-size: 12px;">
+                                        1. Digite o número de WhatsApp: Insira o número no campo de rastreamento para iniciar a investigação.<br><br>
+                                        2. A ferramenta faz o resto: Nossa tecnologia de clonagem trabalha automaticamente para trazer todas as mensagens e registros do WhatsApp, independentemente do dispositivo.<br><br>
+                                        3. Acesse todas as informações: Em minutos, você terá acesso a todas as mensagens suspeitas, fotos e locais visitados pela pessoa monitorada, de forma completamente discreta.<br><br>
+                                    </p>
+                                    <p>É simples, seguro e totalmente anônimo. Não importa se o WhatsApp é modificado ou o dispositivo está longe de você, nossa ferramenta garante resultados confiáveis!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="status text-center">
+                        <span class="blinking-dot"></span> Investigações acontecendo agora 👇
+                    </p>
+
+                    <div class="phone-list">
+                        <div class="phone-item">
+                            <img src="assets/img/profile2.png" alt="Profile" class="profile-pic img-fluid">
+                            <span class="phone-number">+55 21 98371-****</span>
+                        </div>
+                        <div class="phone-item">
+                            <img src="assets/img/profile24.png" alt="Profile" class="profile-pic img-fluid">
+                            <span class="phone-number">+55 95 98765-****</span>
+                        </div>
+                        <div class="phone-item">
+                            <img src="assets/img/profile1.png" alt="Profile" class="profile-pic img-fluid">
+                            <span class="phone-number">+55 88 99823-****</span>
+                        </div>
+                    </div>
+                </div>
+            <section class="part-1">
+                <div class="text-center">
+                    <h3 class="text-dark fw-bold mb-3" style="font-size: 1.4rem; margin-top: 30px;">Monitorar o Celular pelo Número com o Espião</h3>
+                    <p class="text-secondary mb-5" style="font-size: 0.8rem;">Monitore WhatsApp, chamadas e localização sem tocar no celular alvo! O espião acessa tudo remotamente e sem precisar instalar nada.</p>
+
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-5 mb-4 mb-md-0">
+                            <img src="assets/img/celular.png" alt="Celular Monitoramento" class="img-fluid" style="max-height: 600px;">
+                        </div>
+
+                        <div class="col-md-5 text-start">
+                            <div class="d-flex align-items-center mb-4">
+                                <img src="assets/img/sticks1.png" alt="Ícone Distância" class="me-3" width="48" height="48">
+                                <p class="mb-0 fw-bold">Funciona à qualquer distância</p>
+                            </div>
+
+                            <div class="d-flex align-items-center mb-4">
+                                <img src="assets/img/sticks2.png" alt="Ícone Invisível" class="me-3" width="48" height="48">
+                                <p class="mb-0 fw-bold">Totalmente Invisível</p>
+                            </div>
+
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/sticks3.png" alt="Ícone Compatibilidade" class="me-3" width="48" height="48">
+                                <p class="mb-0 fw-bold">Funciona em Qualquer Celular</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          
+
+<!--Divisão-->
+
+
+
+                <div class="part-3" style="display: none">
+                    <div class="headline_vsl mt-3">
+                        <h6 class="card-title poppins-bold text-center text-danger"><mark style="color: red;">Assista o video enquanto</mark></h6>
+                        <h2 class="card-title poppins-bold text-center text-success mb-0" style="color:#008169; font-size: 22px;">o número é Rastreado</h2>
+                        <h6 class="card-title poppins-bold text-center mb-0" style="font-size: 16px;">e as conversas são processadas</h6>
+                    </div>
+
+                    <!-- Vturb -->
+                    <div id="vsl" class="mt-3 mb-3">
+
+                        <p class="mt-2 text-center font12"><i class="fa fa-volume-up" aria-hidden="true"></i> Verifique se seu som está ligado</p>
+                    </div>
+
+                    <div class="text-center mb-3">
+                        <img src="" class="rounded-circle img-fluid profile_picture" width="75">
+                    </div>
+
+                    <div class="progress_analysct_number">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                        </div>
+                        <p class="text-center mt-2 mb-2 font12"><b>Aguarde</b>, o Whatsapp informado está sendo espionado.</p>
+                        <p class="text-center mb-4 font12">Essa análise pode durar até <b>5 minutos</b></p>
+                    </div>
+
+
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="card h-100 border">
+                                <div class="card-body d-flex flex-column align-items-center">
+                                    <div class="d-flex align-items-center w-100">
+                                        <i class="fas fa-comment-dots fa-2x text-emerald-600 mt-20 mb-2"></i>
+                                    </div>
+                                    <b class="mt-4 titlecard">Mensagens suspeitas</b>
+                                    <p class="font-light text-sm text-center mb-0 font12">*Mensagens contendo algum contexto sexual.</p>
+                                    <h2 class="card-title font-bold text-2xl text-center mt-2 ms-2 ramdom-1">-</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card h-100 border">
+                                <div class="card-body d-flex flex-column align-items-center">
+                                    <div class="d-flex align-items-center w-100">
+                                        <i class="fas fa-image fa-2x text-emerald-600 mt-2 mb-2"></i>
+                                        
+                                    </div>
+                                    <b class="mt-4 titlecard">Imagens suspeitas</b>
+                                    <p class="font-light text-sm text-center mb-0 font12">*Imagens identificadas com conteúdos de nudes.</p>
+                                    <h2 class="card-title font-bold text-2xl text-center mt-2 ms-2 ramdom-2">-</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card h-100 border">
+                                <div class="card-body d-flex flex-column align-items-center">
+                                    <div class="d-flex align-items-center w-100">
+                                        <i class="fas fa-map-marker-alt fa-2x text-emerald-600 mt-2 mb-2"></i>
+                                    </div>
+                                    <b class="mt-4 titlecard">Localizações suspeitas</b>
+                                    <p class="font-light text-sm text-center mb-0 font12">*Localizações como motel, casa de massagem e pontos de prostituição.</p>
+                                    <h2 class="card-title font-bold text-2xl text-center mt-2 ms-2 ramdom-3">-</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- se puxou a imagem -->
+                <div class="withImg" style="display: none">
+                    <div class="card">
+                        <div class="card-body text-center">
+
+                            <img src="" class="profile_picture rounded-circle img-fluid mb-3" width="120">
+                            <p class="name-profile-text mb-1"><b>Nome no Whatsapp:</b> {{nameProfile}}</p>
+                            <p class="bio-text mb-1"><b>Bio:</b> {{about}}</p>
+                            <p class="description-text mb-1"><b>Descrição:</b> {{description}}</p>
+                            <p class="phone-number mb-2"><b>Telefone:</b> {{phone}}</p>
+
+                            <p><mark>O Espião examinou cerca de <span class="ramdom-4">4.357</span> mensagens e aqui estão alguns dos destaques:</mark></p>
+
+                            <div class="card card bg-danger text-white mt-3 mb-3">
+                                <div class="card-body poppins-semibold">
+                                    <p class="mb-1">Mensagens suspeitas: <span class="ramdom-1">-</span></p>
+                                    <p class="mb-1">Imagens suspeitas: <span class="ramdom-2">-</span></p>
+                                    <p class="mb-1">Localizações suspeitas: <span class="ramdom-3">-</span></p>
+                                </div>
+                            </div>
+                            <a href="./concluido">
+                                <button class="btn btn-primary w-100 mt-2 mb-2 p-2" style="font-size: 14px;">Clique aqui e descubra a verdade</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- se não puxou a imgem -->
+
+                <div class="NotImg" style="display: none">
+                    <h6 class="card-title poppins-semibold text-center mb-2">Para conseguirmos concluir a <b>VERIFICAÇÃO</b> de espionagem <b>COMPLETA</b> responda:</h6>
+                    <h6 class="card-title poppins-semibold text-center mb-2 text-danger">Ele(a) é seu/sua:</h6>
+
+                    <div class="mt-4 mb-3 text-center d-flex gap-3">
+                        <a href="./marido" class="bg-success text-white"><img class="img-fluid" src="assets/img/marido.webp">
+                            <p class="mb-3 mt-3">Parceiro / Marido</p>
+                        </a>
+                        <a href="./esposa" class="bg-success text-white"><img class="img-fluid" src="assets/img/esposa.webp">
+                            <p class="mb-3 mt-3">Parceira / Esposa</p>
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="investigationModal" tabindex="-1" aria-labelledby="investigationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header" style="display: none"></div>
+
+                <div class="modal-body">
+
+                    <!-- Part-2 e outras partes que serão exibidas no modal -->
+                    <div style="text-align: center;">
+    <img src="assets/img/unlock.gif" width="120px" class="mb-2 text-center">
+    
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                        </div>
+
+                        <div class="text_ramdom mt-2 mb-3 font12">Iniciando...</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+<footer class="text-center mt-4">
+    <p>Ferramenta Atualizada:<br> <b class="descounttime">-</b></p>
+
+    <img src="assets/img/selo.png" width="140">
+
+    <p>&copy; 2024 Espião Invisível. Todos os direitos reservados.</p>
+    <p style="font-size: 13px;"><br>
+        <a href="./termos-de-uso" style="color: black;">Termos de Uso</a><br>
+        <a href="./politica-de-privacidade" style="color: black;">Política de Privacidade</a>
+    </p>
+</footer>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- jQuery Cookies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+    <!-- Mask Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <!-- Custom -->
+    <script src="assets/js/scripts.js"></script>
+
+
+    <script>
+$(document).ready(function () {
+    // Função para obter o valor de um parâmetro da URL
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(window.location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }
+
+    // Lista de parâmetros que queremos capturar da URL
+    var paramsToCapture = [
+        'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'src',
+        'gclid', 'wbraid', 'gbraid',
+        'keyword', 'device', 'network'
+    ];
+
+    // Captura os parâmetros da URL e salva como cookie por 30 dias
+    paramsToCapture.forEach(function (param) {
+        var value = getUrlParameter(param);
+        if (value) {
+            $.cookie(param, value, { expires: 30, path: '/' });
+        }
+    });
+});
+</script>
+
+    
+    <script>
+  let tempoRestante = 15 * 60; // 15 minutos em segundos
+  let intervalo;
+  let pausado = false;
+
+  const elContador = document.getElementById("contador");
+  const elMensagem = document.getElementById("mensagem-pausa");
+
+  function atualizarContador() {
+    const minutos = String(Math.floor(tempoRestante / 60)).padStart(2, '0');
+    const segundos = String(tempoRestante % 60).padStart(2, '0');
+    elContador.textContent = `${minutos}:${segundos}`;
+  }
+
+  function iniciarContador() {
+    intervalo = setInterval(() => {
+      if (!pausado) {
+        if (tempoRestante <= 0) {
+          clearInterval(intervalo);
+          elContador.textContent = "00:00";
+        } else {
+          tempoRestante--;
+          atualizarContador();
+        }
+      }
+    }, 1000);
+  }
+
+  function observarPart3() {
+    const observer = new MutationObserver(() => {
+      const part3 = document.querySelector(".part-3");
+      if (!part3) return;
+
+      const style = getComputedStyle(part3);
+      if (style.display !== "none") {
+        pausado = true;
+        elMensagem.style.display = "block";
+      } else {
+        pausado = false;
+        elMensagem.style.display = "none";
+      }
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+
+  atualizarContador();
+  iniciarContador();
+  observarPart3();
+</script>
+
+
+
+
+</body>
+
+</html>
